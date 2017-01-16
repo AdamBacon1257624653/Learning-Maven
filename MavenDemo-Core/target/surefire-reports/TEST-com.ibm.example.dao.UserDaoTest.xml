@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="4.507" errors="0" skipped="0" tests="2" name="com.ibm.example.dao.UserDaoTest">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="D:\JavaDevelopement\Java\JDK_1.7\jre\bin"/>
+    <property name="java.vm.version" value="24.79-b02"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="E:\Developement\Workspace\MyEclipse_Workspace\MavenDemo-Core"/>
+    <property name="java.runtime.version" value="1.7.0_79-b15"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="basedir" value="E:\Developement\Workspace\MyEclipse_Workspace\MavenDemo-Core"/>
+    <property name="java.endorsed.dirs" value="D:\JavaDevelopement\Java\JDK_1.7\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="surefire.real.class.path" value="E:\Developement\Workspace\MyEclipse_Workspace\MavenDemo-Core\target\surefire\surefirebooter5734254161627743131.jar"/>
+    <property name="java.io.tmpdir" value="C:\Users\PC-Adam\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="D:\JavaDevelopement\Java\JDK_1.7\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\MySQL\MySQL Server 5.7\bin;D:\JavaDevelopement\DevelopeTools\Nexus_2.14\nexus-2.14.1-01\bin;D:\JavaDevelopement\Maven_3.0.3\bin;E:\Developement\Database\MySql5.0\bin;D:\AndroidDevelopment\SDK\platform-tools;D:\JavaDevelopement\Java\JDK_1.7\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;E:\Developement\Server\Git\cmd;E:\Developement\Server\Git\GnuPG\pub;D:\JavaDevelopement\DevelopeTools\Ant_1.9.7\bin;D:\JavaDevelopement\DevelopeTools\vim\vim\vim80;C:\Users\PC-Adam\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="surefire.test.class.path" value="E:\Developement\Workspace\MyEclipse_Workspace\MavenDemo-Core\target\test-classes;E:\Developement\Workspace\MyEclipse_Workspace\MavenDemo-Core\target\generated-classes\cobertura;D:\JavaDevelopement\Maven_3.0.3\repos\localrepo\junit\junit\4.8.2\junit-4.8.2.jar;D:\JavaDevelopement\Maven_3.0.3\repos\localrepo\javax\servlet\servlet-api\2.4\servlet-api-2.4.jar;D:\JavaDevelopement\Maven_3.0.3\repos\localrepo\javax\servlet\jsp\jsp-api\2.1\jsp-api-2.1.jar;D:\JavaDevelopement\Maven_3.0.3\repos\localrepo\org\hibernate\hibernate-core\4.3.8.Final\hibernate-core-4.3.8.Final.jar;D:\JavaDevelopement\Maven_3.0.3\repos\localrepo\org\jboss\logging\jboss-logging\3.1.3.GA\jboss-logging-3.1.3.GA.jar;D:\JavaDevelopement\Maven_3.0.3\repos\localrepo\org\jboss\logging\jboss-logging-annotations\1.2.0.Beta1\jboss-logging-annotations-1.2.0.Beta1.jar;D:\JavaDevelopement\Maven_3.0.3\repos\localrepo\org\jboss\spec\javax\transaction\jboss-transaction-api_1.2_spec\1.0.0.Final\jboss-transaction-api_1.2_spec-1.0.0.Final.jar;D:\JavaDevelopement\Maven_3.0.3\repos\localrepo\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;D:\JavaDevelopement\Maven_3.0.3\repos\localrepo\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;D:\JavaDevelopement\Maven_3.0.3\repos\localrepo\org\hibernate\common\hibernate-commons-annotations\4.0.5.Final\hibernate-commons-annotations-4.0.5.Final.jar;D:\JavaDevelopement\Maven_3.0.3\repos\localrepo\org\hibernate\javax\persistence\hibernate-jpa-2.1-api\1.0.0.Final\hibernate-jpa-2.1-api-1.0.0.Final.jar;D:\JavaDevelopement\Maven_3.0.3\repos\localrepo\org\javassist\javassist\3.18.1-GA\javassist-3.18.1-GA.jar;D:\JavaDevelopement\Maven_3.0.3\repos\localrepo\antlr\antlr\2.7.7\antlr-2.7.7.jar;D:\JavaDevelopement\Maven_3.0.3\repos\localrepo\org\jboss\jandex\1.1.0.Final\jandex-1.1.0.Final.jar;D:\JavaDevelopement\Maven_3.0.3\repos\localrepo\mysql\mysql-connector-java\5.1.38\mysql-connector-java-5.1.38.jar;D:\JavaDevelopement\Maven_3.0.3\repos\localrepo\log4j\log4j\1.2.16\log4j-1.2.16.jar;D:\JavaDevelopement\Maven_3.0.3\repos\localrepo\org\dbunit\dbunit\2.4.9\dbunit-2.4.9.jar;D:\JavaDevelopement\Maven_3.0.3\repos\localrepo\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;D:\JavaDevelopement\Maven_3.0.3\repos\localrepo\joda-time\joda-time\2.9.4\joda-time-2.9.4.jar;D:\JavaDevelopement\Maven_3.0.3\repos\localrepo\org\slf4j\slf4j-api\1.6.6\slf4j-api-1.6.6.jar;D:\JavaDevelopement\Maven_3.0.3\repos\localrepo\net\sourceforge\cobertura\cobertura\2.1.1\cobertura-2.1.1.jar;D:\JavaDevelopement\Maven_3.0.3\repos\localrepo\jaxen\jaxen\1.1.4\jaxen-1.1.4.jar;D:\JavaDevelopement\Maven_3.0.3\repos\localrepo\org\apache\ant\ant\1.8.3\ant-1.8.3.jar;D:\JavaDevelopement\Maven_3.0.3\repos\localrepo\org\apache\ant\ant-launcher\1.8.3\ant-launcher-1.8.3.jar;D:\JavaDevelopement\Maven_3.0.3\repos\localrepo\org\apache\ant\ant-junit\1.8.3\ant-junit-1.8.3.jar;D:\JavaDevelopement\Maven_3.0.3\repos\localrepo\org\mortbay\jetty\servlet-api-2.5\6.1.14\servlet-api-2.5-6.1.14.jar;D:\JavaDevelopement\Maven_3.0.3\repos\localrepo\org\mortbay\jetty\jetty\6.1.26\jetty-6.1.26.jar;D:\JavaDevelopement\Maven_3.0.3\repos\localrepo\org\mortbay\jetty\servlet-api\2.5-20081211\servlet-api-2.5-20081211.jar;D:\JavaDevelopement\Maven_3.0.3\repos\localrepo\org\mortbay\jetty\jetty-util\6.1.14\jetty-util-6.1.14.jar;D:\JavaDevelopement\Java\JDK_1.7\jre\..\lib\tools.jar;D:\JavaDevelopement\Maven_3.0.3\repos\localrepo\ch\qos\logback\logback-classic\1.0.13\logback-classic-1.0.13.jar;D:\JavaDevelopement\Maven_3.0.3\repos\localrepo\ch\qos\logback\logback-core\1.0.13\logback-core-1.0.13.jar;D:\JavaDevelopement\Maven_3.0.3\repos\localrepo\org\apache\commons\commons-lang3\3.3.2\commons-lang3-3.3.2.jar;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.3"/>
+    <property name="user.home" value="C:\Users\PC-Adam"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="user.name" value="PC-Adam"/>
+    <property name="java.class.path" value="E:\Developement\Workspace\MyEclipse_Workspace\MavenDemo-Core\target\test-classes;E:\Developement\Workspace\MyEclipse_Workspace\MavenDemo-Core\target\generated-classes\cobertura;D:\JavaDevelopement\Maven_3.0.3\repos\localrepo\junit\junit\4.8.2\junit-4.8.2.jar;D:\JavaDevelopement\Maven_3.0.3\repos\localrepo\javax\servlet\servlet-api\2.4\servlet-api-2.4.jar;D:\JavaDevelopement\Maven_3.0.3\repos\localrepo\javax\servlet\jsp\jsp-api\2.1\jsp-api-2.1.jar;D:\JavaDevelopement\Maven_3.0.3\repos\localrepo\org\hibernate\hibernate-core\4.3.8.Final\hibernate-core-4.3.8.Final.jar;D:\JavaDevelopement\Maven_3.0.3\repos\localrepo\org\jboss\logging\jboss-logging\3.1.3.GA\jboss-logging-3.1.3.GA.jar;D:\JavaDevelopement\Maven_3.0.3\repos\localrepo\org\jboss\logging\jboss-logging-annotations\1.2.0.Beta1\jboss-logging-annotations-1.2.0.Beta1.jar;D:\JavaDevelopement\Maven_3.0.3\repos\localrepo\org\jboss\spec\javax\transaction\jboss-transaction-api_1.2_spec\1.0.0.Final\jboss-transaction-api_1.2_spec-1.0.0.Final.jar;D:\JavaDevelopement\Maven_3.0.3\repos\localrepo\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;D:\JavaDevelopement\Maven_3.0.3\repos\localrepo\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;D:\JavaDevelopement\Maven_3.0.3\repos\localrepo\org\hibernate\common\hibernate-commons-annotations\4.0.5.Final\hibernate-commons-annotations-4.0.5.Final.jar;D:\JavaDevelopement\Maven_3.0.3\repos\localrepo\org\hibernate\javax\persistence\hibernate-jpa-2.1-api\1.0.0.Final\hibernate-jpa-2.1-api-1.0.0.Final.jar;D:\JavaDevelopement\Maven_3.0.3\repos\localrepo\org\javassist\javassist\3.18.1-GA\javassist-3.18.1-GA.jar;D:\JavaDevelopement\Maven_3.0.3\repos\localrepo\antlr\antlr\2.7.7\antlr-2.7.7.jar;D:\JavaDevelopement\Maven_3.0.3\repos\localrepo\org\jboss\jandex\1.1.0.Final\jandex-1.1.0.Final.jar;D:\JavaDevelopement\Maven_3.0.3\repos\localrepo\mysql\mysql-connector-java\5.1.38\mysql-connector-java-5.1.38.jar;D:\JavaDevelopement\Maven_3.0.3\repos\localrepo\log4j\log4j\1.2.16\log4j-1.2.16.jar;D:\JavaDevelopement\Maven_3.0.3\repos\localrepo\org\dbunit\dbunit\2.4.9\dbunit-2.4.9.jar;D:\JavaDevelopement\Maven_3.0.3\repos\localrepo\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;D:\JavaDevelopement\Maven_3.0.3\repos\localrepo\joda-time\joda-time\2.9.4\joda-time-2.9.4.jar;D:\JavaDevelopement\Maven_3.0.3\repos\localrepo\org\slf4j\slf4j-api\1.6.6\slf4j-api-1.6.6.jar;D:\JavaDevelopement\Maven_3.0.3\repos\localrepo\net\sourceforge\cobertura\cobertura\2.1.1\cobertura-2.1.1.jar;D:\JavaDevelopement\Maven_3.0.3\repos\localrepo\jaxen\jaxen\1.1.4\jaxen-1.1.4.jar;D:\JavaDevelopement\Maven_3.0.3\repos\localrepo\org\apache\ant\ant\1.8.3\ant-1.8.3.jar;D:\JavaDevelopement\Maven_3.0.3\repos\localrepo\org\apache\ant\ant-launcher\1.8.3\ant-launcher-1.8.3.jar;D:\JavaDevelopement\Maven_3.0.3\repos\localrepo\org\apache\ant\ant-junit\1.8.3\ant-junit-1.8.3.jar;D:\JavaDevelopement\Maven_3.0.3\repos\localrepo\org\mortbay\jetty\servlet-api-2.5\6.1.14\servlet-api-2.5-6.1.14.jar;D:\JavaDevelopement\Maven_3.0.3\repos\localrepo\org\mortbay\jetty\jetty\6.1.26\jetty-6.1.26.jar;D:\JavaDevelopement\Maven_3.0.3\repos\localrepo\org\mortbay\jetty\servlet-api\2.5-20081211\servlet-api-2.5-20081211.jar;D:\JavaDevelopement\Maven_3.0.3\repos\localrepo\org\mortbay\jetty\jetty-util\6.1.14\jetty-util-6.1.14.jar;D:\JavaDevelopement\Java\JDK_1.7\jre\..\lib\tools.jar;D:\JavaDevelopement\Maven_3.0.3\repos\localrepo\ch\qos\logback\logback-classic\1.0.13\logback-classic-1.0.13.jar;D:\JavaDevelopement\Maven_3.0.3\repos\localrepo\ch\qos\logback\logback-core\1.0.13\logback-core-1.0.13.jar;D:\JavaDevelopement\Maven_3.0.3\repos\localrepo\org\apache\commons\commons-lang3\3.3.2\commons-lang3-3.3.2.jar;"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="D:\JavaDevelopement\Java\JDK_1.7\jre"/>
+    <property name="sun.java.command" value="E:\Developement\Workspace\MyEclipse_Workspace\MavenDemo-Core\target\surefire\surefirebooter5734254161627743131.jar E:\Developement\Workspace\MyEclipse_Workspace\MavenDemo-Core\target\surefire\surefire885527227546701815tmp E:\Developement\Workspace\MyEclipse_Workspace\MavenDemo-Core\target\surefire\surefire8915364247764798255tmp"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.7.0_79"/>
+    <property name="java.ext.dirs" value="D:\JavaDevelopement\Java\JDK_1.7\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="D:\JavaDevelopement\Java\JDK_1.7\jre\lib\resources.jar;D:\JavaDevelopement\Java\JDK_1.7\jre\lib\rt.jar;D:\JavaDevelopement\Java\JDK_1.7\jre\lib\sunrsasign.jar;D:\JavaDevelopement\Java\JDK_1.7\jre\lib\jsse.jar;D:\JavaDevelopement\Java\JDK_1.7\jre\lib\jce.jar;D:\JavaDevelopement\Java\JDK_1.7\jre\lib\charsets.jar;D:\JavaDevelopement\Java\JDK_1.7\jre\lib\jfr.jar;D:\JavaDevelopement\Java\JDK_1.7\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="localRepository" value="D:\JavaDevelopement\Maven_3.0.3\repos\localrepo"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase time="4.35" classname="com.ibm.example.dao.UserDaoTest" name="testGetById"/>
+  <testcase time="0.064" classname="com.ibm.example.dao.UserDaoTest" name="testSave"/>
+</testsuite>

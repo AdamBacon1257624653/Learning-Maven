@@ -1,0 +1,6 @@
+#surefire
+#Sun Nov 20 22:48:44 CST 2016
+user.dir=E\:\\Developement\\Workspace\\MyEclipse_Workspace\\MavenDemo-Core
+localRepository=D\:\\JavaDevelopement\\Maven_3.0.3\\repos\\localrepo
+basedir=E\:\\Developement\\Workspace\\MyEclipse_Workspace\\MavenDemo-Core
+test=aa.java

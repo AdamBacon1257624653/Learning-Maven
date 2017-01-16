@@ -1,0 +1,31 @@
+#surefire
+#Sat Nov 19 11:32:00 CST 2016
+testClassesDirectory=E\:\\Developement\\Workspace\\MyEclipse_Workspace\\MavenDemo-Log\\target\\test-classes
+classPathUrl.4=D\:\\JavaDevelopement\\Maven_3.0.3\\repos\\localrepo\\javax\\servlet\\jsp\\jsp-api\\2.1\\jsp-api-2.1.jar
+classPathUrl.3=D\:\\JavaDevelopement\\Maven_3.0.3\\repos\\localrepo\\javax\\servlet\\servlet-api\\2.4\\servlet-api-2.4.jar
+classPathUrl.2=D\:\\JavaDevelopement\\Maven_3.0.3\\repos\\localrepo\\junit\\junit\\4.8.2\\junit-4.8.2.jar
+useManifestOnlyJar=true
+classPathUrl.1=E\:\\Developement\\Workspace\\MyEclipse_Workspace\\MavenDemo-Log\\target\\classes
+reportsDirectory=E\:\\Developement\\Workspace\\MyEclipse_Workspace\\MavenDemo-Log\\target\\surefire-reports
+classPathUrl.0=E\:\\Developement\\Workspace\\MyEclipse_Workspace\\MavenDemo-Log\\target\\test-classes
+dirscanner.0=directoryScannerOptions
+providerConfiguration=org.apache.maven.surefire.junit4.JUnit4Provider
+testSuiteDefinitionTestSourceDirectory=E\:\\Developement\\Workspace\\MyEclipse_Workspace\\MavenDemo-Log\\src\\test\\java
+surefireClassPathUrl.1=D\:\\JavaDevelopement\\Maven_3.0.3\\repos\\localrepo\\org\\apache\\maven\\surefire\\surefire-api\\2.7.1\\surefire-api-2.7.1.jar
+surefireClassPathUrl.0=D\:\\JavaDevelopement\\Maven_3.0.3\\repos\\localrepo\\org\\apache\\maven\\surefire\\surefire-junit4\\2.7.1\\surefire-junit4-2.7.1.jar
+report.2=org.apache.maven.surefire.report.XMLReporter
+useSystemClassLoader=true
+report.1=org.apache.maven.surefire.report.BriefFileReporter
+report.0=org.apache.maven.surefire.report.ForkingConsoleReporter
+excludes0=**/*$*
+isTrimStackTrace=true
+dirscanner.0.params=E\:\\Developement\\Workspace\\MyEclipse_Workspace\\MavenDemo-Log\\target\\test-classes|[**/Test*.java, **/*Test.java, **/*TestCase.java]|[**/*$*]
+includes2=**/*TestCase.java
+enableAssertions=true
+includes1=**/*Test.java
+failIfNoTests=false
+dirscanner.0.types=java.io.File|java.util.ArrayList|java.util.ArrayList
+includes0=**/Test*.java
+childDelegation=false
+classPathUrl.6=D\:\\JavaDevelopement\\Maven_3.0.3\\repos\\localrepo\\log4j\\log4j\\1.2.16\\log4j-1.2.16.jar
+classPathUrl.5=D\:\\JavaDevelopement\\Maven_3.0.3\\repos\\localrepo\\commons-logging\\commons-logging\\1.1.1\\commons-logging-1.1.1.jar
